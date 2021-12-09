@@ -25,6 +25,12 @@ public class Palindrome {
         }else{
             System.out.println(str+" is NOT a palindrome");
         }
+        String num="abcabcabcd";
+        for (int i = 'a'-'a'; i <=num.length()*num.length(); i++) {
+            System.out.println(i);
+
+        }
 
     }
+
 }
